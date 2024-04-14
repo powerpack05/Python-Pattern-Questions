@@ -1,4 +1,14 @@
-
+'''
+                *
+              *   *
+            *       *
+          *           *
+        *               *
+      *                   *       
+    *                       *     
+  *                           *   
+*   *   *   *   *   *   *   *   * 
+'''
 
 def hallow_pyramid(number_of_rows):
 
@@ -6,7 +16,7 @@ def hallow_pyramid(number_of_rows):
 
         for j in range(1, 2 * number_of_rows):
 
-            if (i + j == number_of_rows + 1) or (j - i == number_of_rows - 1) or (i == j and j%2!=0):
+            if (i + j == number_of_rows + 1) or (j - i == number_of_rows - 1) or (i == number_of_rows and j%2!=0):
 
                 print("*", end=" ")
             else:

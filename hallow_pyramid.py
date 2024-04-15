@@ -23,5 +23,5 @@ def hallow_pyramid(number_of_rows):
                 print(" ", end=" ")
         print()
 
-hallow_pyramid(9)
+hallow_pyramid(int(input("Enter the number:\n")))
 

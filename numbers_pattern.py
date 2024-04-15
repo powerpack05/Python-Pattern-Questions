@@ -10,7 +10,7 @@ def numbers_pattern(number):
 
     for i in range(1,number+1):
 
-        print(" "*(number-i),end=" ")
+        print(" "*(number-i),end="")
 
         for j in range(1,i+1):
 
@@ -18,4 +18,4 @@ def numbers_pattern(number):
 
         print()
 
-numbers_pattern(5)
+numbers_pattern(int(input("Enter the number:\n")))
